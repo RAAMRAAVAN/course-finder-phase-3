@@ -1,0 +1,300 @@
+*{
+    font-family: poppins;
+}
+.Graph{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+.bg-purple{
+    /* background-color: #514ceb; */
+    opacity: 0.9;
+    /* background-image: linear-gradient(#514ceb); */
+    border-radius: 0px 0px 0px 50px;
+    box-shadow: 10px 10px 30px 10px rgb(70, 69, 69);
+    position:absolute;
+    /* border: 1px black solid; */
+
+    background: rgba(18, 13, 179, 0.8);
+    backdrop-filter: blur(10px);
+    height: 70px;
+}
+.menu{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    /* border: 1px black solid; */
+    padding-top: 50px;
+    /* border-radius: ; */
+}
+
+.home{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    z-index: 2;
+    color:white;
+    font-weight: bold;
+}
+.menu-border{
+    border-radius: 0px 15px 0px 15px;
+    box-shadow: 2px 2px 10px 2px rgb(70, 69, 69);
+}
+.backgroundcontainer{
+    position:absolute;
+    top:40px;
+    /* border:1px black solid; */
+    z-index: -1;
+}
+.background{
+    display: flex;
+    justify-content: flex-end;
+    /* border:1px black solid; */
+    height:600px;
+    width:300px;
+    border-radius: 300px 0% 0% 300px;
+    background-image: linear-gradient(#c6002f, #ff00d0);
+}
+.options{
+    margin-top: 50px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    position:absolute;
+}
+
+.nav_element{
+    background-color: #6925d5;
+    border-radius: 0px 15px 0px 15px;
+}
+.backgroundcontainer2{
+    position:absolute;
+    top:400px;
+    /* border:1px black solid; */
+    z-index: -1;
+}
+.background2{
+    display: flex;
+    justify-content: flex-end;
+    /* border:1px black solid; */
+    height:600px;
+    width:300px;
+    border-radius: 0% 300px 300px 0%;
+    background-image: linear-gradient(#9d31a4, #6925d5);
+}
+.icon-color{
+    color:#6925d5;
+}
+.submit-btn{
+    color:white;
+    background-color: #6925d5;
+}
+.menu-shadow{
+    box-shadow: -3px 3px 3px 1px rgb(187, 184, 184);
+}
+.content-shadow{
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    height:320px;
+    box-shadow: 10px 10px 20px 1px rgb(68, 67, 67);
+}
+.BrushScriptMT{
+    font-family:Brush Script MT;
+    color:black;
+    text-underline-offset: 0;
+}
+.fontw{
+    font-style: italic;
+    font-size: 12px;
+    font-weight:bold;
+}
+.pcsize{
+    font-size: 12px;
+}
+.text-bg-vio{
+    background-image: linear-gradient(#6925d5,#ff00d0 );
+    color:white;
+}
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+    text-decoration: none;
+  }
+  .height_list{
+    display: flex;
+    height:100px;
+    align-items: center;
+    justify-content: center;
+  }
+  .height_list:hover{
+    cursor: pointer;
+  }
+  /* by me */
+.pageNo,.disabled{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    width:50px;
+    height: 50px;
+    border-radius:6px;
+    margin-right: 3px;
+    
+    color:white;
+    border:none;
+    font-weight: bold;
+  }
+  .disabled{
+    background-color: #ff00d0!important;
+}
+.pageNo{
+    background-image: linear-gradient(#9d31a4, #6925d5);
+}
+  .pageContainer{
+    display: flex;
+    justify-content: center;
+  }
+  .floating-border:focus {
+    outline: none;
+    box-shadow: none;
+  }
+ .Filter-Toggel,.FilterMenu{
+    display:none;
+    margin: 0;
+    padding: 0;
+ }
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .Filter-Toggel,.FilterMenu{
+        display:flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0.1rem 0;
+     }
+     .FilterMenu{
+        margin: 0.5rem 0;
+        display: flex;
+        align-items: center;
+       
+     }
+     .hide-menu{
+        display: none;
+        position:absolute;
+        padding: 0;
+        margin: 0;
+     }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .Filter-Toggel,.FilterMenu{
+        display:flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0.1rem 0;
+     }
+     .FilterMenu{
+        margin: 0.5rem 0;
+     }
+     .hide-menu{
+        display: none;
+        position:absolute;
+        padding: 0;
+        margin: 0;
+     }
+    
+  }
+  @media (min-width: 0px) and (max-width: 319px) {
+
+    /* CSS */
+    .Filter-Toggel,.FilterMenu{
+        display:flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0.1rem 0;
+     }
+     .FilterMenu{
+        margin: 0.5rem 0;
+     }
+     .hide-menu{
+        display: none;
+        position:absolute;
+        padding: 0;
+        margin: 0;
+     }
+    
+  }
